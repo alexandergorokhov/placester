@@ -14,9 +14,8 @@ public class Results {
     public static class Word implements Comparable<Word> {
         private String word;
         private int totalOccurances = 0;
-
-
         private String sentenceIndexes = "";
+
 
         @Override
         public boolean equals(Object o) {
