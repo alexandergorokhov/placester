@@ -1,0 +1,37 @@
+
+Take this paragraph of text and return an alphabetized list of ALL unique words.
+A unique word is any form of a word often communicated with essentially the same meaning.
+--OK
+For example, fish and fishes could be defined as a unique word by using their stem fish.
+ok
+
+For each unique word found in this entire paragraph, determine the how many times the word appears in total.
+ok
+Also, provide an analysis of what sentence index position or positions the word is found.
+
+--OK
+The following words should not be included in your analysis or result set: "a", "the", "and", "of", "in", "be", "also" and "as".
+ok
+Your final result MUST be displayed in a readable console output in the same format as the JSON sample object shown below.
+
+Sample Output:
+{
+  "results": [
+    {
+      "word": "ALL",
+      "total-occurances": 1,
+      "sentence-indexes": [0]
+    },
+    {
+      "word": "alphabetized",
+      "total-occurances": 1,
+      "sentence-indexes": [0]
+    },
+   {
+      "word": "analysis",
+      "total-occurances": 2,
+      "sentence-indexes": [4], [5]
+    },
+   ...
+  ]
+}
